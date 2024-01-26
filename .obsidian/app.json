@@ -8,7 +8,7 @@
   "newLinkFormat": "absolute",
   "autoConvertHtml": true,
   "newFileLocation": "folder",
-  "newFileFolderPath": "data/blog",
+  "newFileFolderPath": "local/obsidian",
   "useMarkdownLinks": true,
   "showUnsupportedFiles": false,
   "userIgnoreFilters": [
