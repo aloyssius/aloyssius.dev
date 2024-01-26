@@ -32,7 +32,7 @@ public/sitemap.xml
 .DS_Store
 
 #obsidian
-/.obsidian/workspace.json
+/.obsidian
 
 # debug
 *.log
