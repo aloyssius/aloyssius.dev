@@ -31,6 +31,9 @@ public/sitemap.xml
 # misc
 .DS_Store
 
+#obsidian
+/.obsidian/workspace.json
+
 # debug
 *.log
 npm-debug.log*

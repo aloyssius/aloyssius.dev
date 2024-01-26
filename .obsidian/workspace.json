@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "57d372e6bd8ccda9",
+        "id": "5ca18bf43bdf29eb",
         "type": "tabs",
         "children": [
           {
-            "id": "89a5455bd49077e7",
+            "id": "baace13f5fa2c61e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "local/obsidian/tong-quan-ve-web-services-va-restful-api.md",
+                "file": "data/blog/tong-quan-ve-web-services-va-restful-api.mdx",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "local/obsidian/tong-quan-ve-web-services-va-restful-api.md",
+                "file": "data/blog/tong-quan-ve-web-services-va-restful-api.mdx",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "local/obsidian/tong-quan-ve-web-services-va-restful-api.md",
+                "file": "data/blog/tong-quan-ve-web-services-va-restful-api.mdx",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "local/obsidian/tong-quan-ve-web-services-va-restful-api.md"
+                "file": "data/blog/tong-quan-ve-web-services-va-restful-api.mdx"
               }
             }
           }
@@ -147,14 +147,17 @@
       "edit-mdx:New .mdx file": false
     }
   },
-  "active": "89a5455bd49077e7",
+  "active": "baace13f5fa2c61e",
   "lastOpenFiles": [
-    "data/blog/tong-quan-ve-web-services-va-restful-api.mdx",
     "local/obsidian/tong-quan-ve-web-services-va-restful-api.md",
+    "data/blog/tong-quan-ve-web-services-va-restful-api.mdx",
+    "local/obsidian/data",
+    "local/obsidian",
+    "data/authors/default.mdx",
+    "public/static/images/endodog.jpg",
     "scripts/convertMarkdownToMdx.js",
     "local/tags.md",
     "data/local/obsidian/tong-quan-ve-web-services-va-restful-api.md",
-    "local/obsidian",
     "local",
     "public/static/images/tong-quan-ve-web-services-va-restful-api2.png",
     "scripts/convertFile.js",
@@ -162,8 +165,6 @@
     "scripts/convertMarkDownFile.js",
     "scripts/replaceFile.js",
     "data/blog/tong-quan-ve-web-services-va-restful-api.md",
-    "data/local/obsidian",
-    "data/local",
     "public/static/images/Pasted image 20240125163948.png",
     "public/static/images/Pasted image 20240125163800.png",
     "public/static/images/tong-quan-ve-web-services-va-restful-api.png",
@@ -172,7 +173,6 @@
     "public/static/images/Pasted image 20240125163528.png",
     "public/static/images/tong-quan-ve-web-services-va-restful-api-2.png",
     "public/static/images/tong-quan-ve-web-services-va-restful-api-1.png",
-    "tong-quan-ve-web-services-va-restful-api.png",
     "data/blog/Chưa đặt tên.md",
     "static/images/tong-quan-ve-web-services-va-restful-api123.png.md",
     "README.md",
