@@ -1,0 +1,13 @@
+{
+  "accentColor": "#209bf8",
+  "interfaceFontFamily": "SF Pro,SF Pro Display",
+  "textFontFamily": "SF Pro Display,Cascadia Mono,SF Pro",
+  "monospaceFontFamily": "SFMono Nerd Font,Cascadia Mono,SF Pro",
+  "baseFontSize": 17,
+  "baseFontSizeAction": true,
+  "cssTheme": "GitHub Theme",
+  "theme": "obsidian",
+  "translucency": false,
+  "showViewHeader": true,
+  "nativeMenus": true
+}

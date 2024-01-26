@@ -1,0 +1,25 @@
+{
+  "promptDelete": false,
+  "livePreview": true,
+  "spellcheckLanguages": null,
+  "vimMode": true,
+  "legacyEditor": false,
+  "showLineNumber": true,
+  "newLinkFormat": "absolute",
+  "autoConvertHtml": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "data/blog",
+  "useMarkdownLinks": true,
+  "showUnsupportedFiles": false,
+  "userIgnoreFilters": [
+    "app/",
+    "hooks/",
+    "layouts/",
+    "lib/",
+    "node_modules/",
+    "scripts/",
+    "types/"
+  ],
+  "attachmentFolderPath": "/public/static/images",
+  "alwaysUpdateLinks": true
+}

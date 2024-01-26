@@ -1,0 +1,199 @@
+{
+  "main": {
+    "id": "26480ae27fcb428b",
+    "type": "split",
+    "children": [
+      {
+        "id": "57d372e6bd8ccda9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "89a5455bd49077e7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "local/obsidian/tong-quan-ve-web-services-va-restful-api.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6fd2190fe1beddd5",
+    "type": "split",
+    "children": [
+      {
+        "id": "3e583d2536965d15",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "89f919aa881d2e0f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "4a60db90e7c41a6a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b0c49970c9633b91",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 249.5110321044922
+  },
+  "right": {
+    "id": "b2adcc68b5dd45a1",
+    "type": "split",
+    "children": [
+      {
+        "id": "354e406d419d71e9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "54ddfca16cb44aa7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "local/obsidian/tong-quan-ve-web-services-va-restful-api.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "9e810fbde7c38e96",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "local/obsidian/tong-quan-ve-web-services-va-restful-api.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "09e3a3d496060975",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "20710355826f0b89",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "local/obsidian/tong-quan-ve-web-services-va-restful-api.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Mở bộ chuyển đổi nhanh": false,
+      "graph:Mở xem biểu đồ": false,
+      "canvas:Tạo bảng mới": false,
+      "daily-notes:Mở ghi chú hôm nay": false,
+      "templates:Chèn mẫu": false,
+      "command-palette:Mở khay lệnh": false,
+      "edit-mdx:New .mdx file": false
+    }
+  },
+  "active": "89a5455bd49077e7",
+  "lastOpenFiles": [
+    "data/blog/tong-quan-ve-web-services-va-restful-api.mdx",
+    "local/obsidian/tong-quan-ve-web-services-va-restful-api.md",
+    "scripts/convertMarkdownToMdx.js",
+    "local/tags.md",
+    "data/local/obsidian/tong-quan-ve-web-services-va-restful-api.md",
+    "local/obsidian",
+    "local",
+    "public/static/images/tong-quan-ve-web-services-va-restful-api2.png",
+    "scripts/convertFile.js",
+    "scripts/convertFile",
+    "scripts/convertMarkDownFile.js",
+    "scripts/replaceFile.js",
+    "data/blog/tong-quan-ve-web-services-va-restful-api.md",
+    "data/local/obsidian",
+    "data/local",
+    "public/static/images/Pasted image 20240125163948.png",
+    "public/static/images/Pasted image 20240125163800.png",
+    "public/static/images/tong-quan-ve-web-services-va-restful-api.png",
+    "public/static/images/Pasted image 20240125163700.png",
+    "public/static/images/tong-quan-ve-web-services-va-restful-api.png",
+    "public/static/images/Pasted image 20240125163528.png",
+    "public/static/images/tong-quan-ve-web-services-va-restful-api-2.png",
+    "public/static/images/tong-quan-ve-web-services-va-restful-api-1.png",
+    "tong-quan-ve-web-services-va-restful-api.png",
+    "data/blog/Chưa đặt tên.md",
+    "static/images/tong-quan-ve-web-services-va-restful-api123.png.md",
+    "README.md",
+    "data/blog/2024-01-24.md",
+    "Chưa đặt tên.md",
+    "Chưa đặt tên 1.md",
+    "node_modules/react-rough-notation/README.md",
+    "static.md",
+    "2023-05-24.md",
+    "Pasted image 20230706182258.png.md",
+    "Chưa đặt tên.canvas",
+    "Markdown Syntax.md",
+    "Các loại API phổ biến.md",
+    "WebService/Tổng quan về Web Services và RESTful API.md",
+    "Tổng quan về GIT.md",
+    "Mô hình Client-Server, MVC, Three-tier.md",
+    "Thấu hiểu tài chính.md",
+    "WebService/Tổng quan về Web Services và RESTful API 1.md",
+    "Untitled.canvas",
+    "2023-07-04.md",
+    "~$rkdown Syntax.md",
+    "Test.md"
+  ]
+}

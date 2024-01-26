@@ -1,0 +1,15 @@
+{
+  "hidden": true,
+  "hiddenList": [
+    "components",
+    "css",
+    "hooks",
+    "layouts",
+    "lib",
+    "node_modules",
+    "scripts",
+    "types",
+    "public/static/favicons",
+    "app"
+  ]
+}
