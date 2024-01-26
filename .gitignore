@@ -38,6 +38,7 @@ yarn-debug.log*
 yarn-error.log*
 
 # local markdown
+/local/obsidian/*
 
 # local env files
 .env.local
