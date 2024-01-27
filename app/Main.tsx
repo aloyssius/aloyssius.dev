@@ -9,7 +9,7 @@ import { RoughNotation } from 'react-rough-notation'
 
 import SEO from '@/components/SEO'
 
-const MAX_DISPLAY = 3;
+const MAX_DISPLAY = 3
 
 const INTERESTED_TECH_TAGS = ['Spring-boot', 'Hibernate', 'Java', 'ReactJS']
 
@@ -62,9 +62,7 @@ export default function Home({ posts, author }) {
             const { slug, date, title, summary, tags, images } = post
 
             return (
-              <li
-                key={slug}
-              >
+              <li key={slug}>
                 <div className="container rounded-xl shadow-md bg-slate-200  dark:bg-zinc-700 flex flex-col justify-center items-center p-4">
                   <div className="relative overflow-hidden bg-clip-border w-full mb-4 rounded-xl h-72 shadow-md bg-white">
                     {Array.isArray(images) && (

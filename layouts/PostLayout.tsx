@@ -70,8 +70,7 @@ export default function PostLayout({ content, authorDetails, next, prev, childre
                   {authorDetails.map((author) => (
                     <li className="flex items-center space-x-2" key={author.name}>
                       {author.avatar && (
-                        <Link
-                          href={author.github as string}>
+                        <Link href={author.github as string}>
                           <Image
                             src={author.avatar}
                             width={38}
@@ -102,7 +101,9 @@ export default function PostLayout({ content, authorDetails, next, prev, childre
               </dd>
             </dl>
             <div className="divide-y divide-gray-200 dark:divide-gray-700 xl:col-span-3 xl:row-span-2 xl:pb-0">
-              <div className="prose max-w-none pb-8 pt-10 dark:prose-invert font-sans_body">{children}</div>
+              <div className="prose max-w-none pb-8 pt-10 dark:prose-invert font-sans_body">
+                {children}
+              </div>
 
               {siteMetadata.comments && (
                 <div

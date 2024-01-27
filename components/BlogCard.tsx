@@ -84,8 +84,7 @@ export default function BlogCard({
           <div className="w-full flex items-center justify-between mt-4 my-2">
             <div className="flex items-center ">
               <div className="relative w-10 h-10 rounded-full bg-slate-600">
-                <Link
-                  href={author.github as string}>
+                <Link href={author.github as string}>
                   <Image
                     className="w-10 h-10 rounded-full static"
                     sizes="auto"

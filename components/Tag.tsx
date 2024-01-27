@@ -9,7 +9,7 @@ interface Props {
 const Tag = ({ text, count }: Props) => {
   return (
     <Link href={`/tags/${slug(text)}`} className="mr-2 my-1 text-sm font-medium uppercase">
-      <div className='hover-div-tag'>
+      <div className="hover-div-tag">
         <div className="inline-block relative py-1 text-md">
           <div className="absolute inset-0 text-primary-500 flex div-tag-zero">
             <svg height="100%" viewBox="0 0 50 100">
