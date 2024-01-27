@@ -52,8 +52,9 @@ const EnglishContent = () => {
   return (
     <div>
       Hello, I'm Tran Quang Ha. I'm currently as an intern, specializing in Back-end Development.
-      <br /> I use Java language and related technologies such as Spring Boot and Hibernate to develop server-side applications, database mainly PostgreSQL and MySQL. Additionally,
-      I develop front-end applications using ReactJS.
+      <br />I use Java language and related technologies such as Spring Boot and Hibernate to
+      develop server-side applications, database mainly PostgreSQL and MySQL. Additionally, I
+      develop front-end applications using ReactJS.
     </div>
   )
 }
