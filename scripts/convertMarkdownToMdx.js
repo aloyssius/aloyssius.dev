@@ -29,7 +29,7 @@ function convertMarkdownFiles() {
 
     let tagCounts = { ...tagData }
 
-    tagsArray.forEach(function(tag) {
+    tagsArray.forEach(function (tag) {
       if (tagCounts[tag]) {
         tagCounts[tag]++
       } else {
