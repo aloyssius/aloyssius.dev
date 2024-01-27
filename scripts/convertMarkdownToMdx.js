@@ -6,7 +6,8 @@ function convertMarkdownFiles() {
   const targetFolderPath = 'data/blog'
   const tagDataPath = 'app/tag-data.json'
 
-  const files = fs.readdirSync(sourceFolderPath, { withFileTypes: true })
+  const files = fs
+    .readdirSync(sourceFolderPath, { withFileTypes: true })
     .filter((file) => file.isFile() && path.extname(file.name) === '.md')
     .map((file) => file.name)
 
@@ -27,13 +28,14 @@ function convertMarkdownFiles() {
     var tagsArray = tagsContent.split('\n').map((tag) => tag.trim().replace(/^- /, ''))
 
     let tagCounts = { ...tagData }
+
     tagsArray.forEach(function(tag) {
       if (tagCounts[tag]) {
         tagCounts[tag]++
       } else {
         tagCounts[tag] = 1
       }
-    });
+    })
 
     for (let tag in tagCounts) {
       if (!tagData[tag]) {
@@ -45,7 +47,7 @@ function convertMarkdownFiles() {
     fs.writeFileSync(targetFilePath, modifiedContent)
 
     console.log(`Complete file ${file}`)
-  });
+  })
 
   console.log('Finish')
 }
