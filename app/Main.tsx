@@ -2,7 +2,6 @@ import Link from '@/components/Link'
 import Tag from '@/components/Tag'
 import siteMetadata from '@/data/siteMetadata'
 import { formatDate } from 'pliny/utils/formatDate'
-import NewsletterForm from 'pliny/ui/NewsletterForm'
 import Image from 'next/image'
 import { TypedIntroduce } from '@/components/TypedIntroduce'
 import { RoughNotation } from 'react-rough-notation'
@@ -11,7 +10,7 @@ import SEO from '@/components/SEO'
 
 const MAX_DISPLAY = 3
 
-const INTERESTED_TECH_TAGS = ['Spring-boot', 'Hibernate', 'Java', 'ReactJS']
+const INTERESTED_TECH_TAGS = ['Java', 'Spring Boot', 'Spring MVC', 'Hibernate', 'ReactJS']
 
 export default function Home({ posts, author }) {
   return (
