@@ -15,7 +15,7 @@ const siteMetadata = {
   linkedin: 'https://www.linkedin.com/in/endodog',
   github: 'https://github.com/endodog',
   twitter: 'https://twitter.com/endodog',
-  facebook: 'https://facebook.com/endodog',
+  facebook: 'https://facebook.com/hatq75',
   // youtube: 'https://youtube.com',
   analytics: {
     // If you want to use an analytics provider you have to add it to the
