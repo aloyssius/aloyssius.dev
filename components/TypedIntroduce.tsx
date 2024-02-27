@@ -20,7 +20,7 @@ export function TypedIntroduce() {
     const options = {
       strings: [
         'Hello, Here is my personal blog! 📝',
-        `I'm a Back-end Development 💻`,
+        `I'm a Full-stack Development 💻`,
         'I am interested in Web Service and Web Application 🌐',
       ],
       typeSpeed: 50,
