@@ -38,9 +38,7 @@ const MobileNav = () => {
           />
         </svg>
       </button>
-      <div
-        className={`${navClasses} ${translateClasses}`}
-      >
+      <div className={`${navClasses} ${translateClasses}`}>
         <div className="flex justify-end">
           <button className="mr-8 mt-11 h-8 w-8" aria-label="Toggle Menu" onClick={onToggleNav}>
             <svg
