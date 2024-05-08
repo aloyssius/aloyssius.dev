@@ -50,7 +50,7 @@ const EnglishContent = () => {
         development
       </li>
       <li>
-        📫 How to reach me <Link href={siteMetadata.email}>&nbsp;tranha.dev@gmail.com</Link>
+        📫 How to reach me <Link href={siteMetadata.email}>tranha.dev@gmail.com</Link>
       </li>
       <br />
       🛠 Tech Stack
@@ -81,7 +81,7 @@ const VietnameseContent = () => {
         phát triển phần mềm
       </li>
       <li>
-        📫 Làm thế nào để liên lạc với tôi
+        📫 Làm thế nào để liên lạc với tôi&nbsp;
         <Link href={siteMetadata.email}>tranha.dev@gmail.com</Link>
       </li>
       <br />
