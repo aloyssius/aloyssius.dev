@@ -3,7 +3,6 @@ import Link from 'next/link'
 export default function MyInformation() {
   return (
     <div>
-
       <div className="mt-5">
         <Link
           href="/blog"

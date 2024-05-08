@@ -89,8 +89,7 @@ function convertBlog() {
     tags?.forEach((tag) => {
       if (tagData[tag]) {
         tagData[tag]++
-      }
-      else {
+      } else {
         tagData[tag] = 1
       }
     })
@@ -101,8 +100,7 @@ function convertBlog() {
       if (tagData[tag]) {
         if (tagData[tag] === 1) {
           delete tagData[tag]
-        }
-        else {
+        } else {
           tagData[tag]--
         }
       }
@@ -139,13 +137,14 @@ function convertBlog() {
 
       writeFile(file, modifiedContent(file), true)
     }
-
   })
+
   function checkBlogNameExists(sourceFileName) {
     return targetFiles.some(
       (targetFile) => nameWithoutExtension(targetFile.name) === nameWithoutExtension(sourceFileName)
     )
   }
+
   function nameWithoutExtension(fileName) {
     return fileName?.substring(0, fileName.lastIndexOf('.'))
   }
