@@ -50,7 +50,7 @@ const EnglishContent = () => {
         development
       </li>
       <li>
-        📫 How to reach me <Link href={siteMetadata.email}>tranha.dev@gmail.com</Link>
+        📫 How to reach me <Link href={siteMetadata.email}>&nbsp;tranha.dev@gmail.com</Link>
       </li>
       <br />
       🛠 Tech Stack
