@@ -7,10 +7,11 @@ import { TypedIntroduce } from '@/components/TypedIntroduce'
 import { RoughNotation } from 'react-rough-notation'
 
 import SEO from '@/components/SEO'
+import MyInformation from '@/components/MyInformation'
 
 const MAX_DISPLAY = 3
 
-const INTERESTED_TECH_TAGS = ['Java', 'Spring Boot', 'Spring MVC', 'Hibernate', 'ReactJS']
+const INTERESTED_TECH_TAGS = ['Java']
 
 export default function Home({ posts, author }) {
   return (
@@ -21,10 +22,14 @@ export default function Home({ posts, author }) {
           <div className="flex flex-col items-start justify-start h-auto flex-1">
             <div className="flex text-3xl font-extrabold leading-9 tracking-tight sm:text-5xl sm:leading-10 md:text-6xl md:leading-14 mb-4 ">
               <h1 className="bg-gradient-to-r from-slate-500 to-slate-800 text-transparent bg-clip-text dark:from-gray-200 dark:to-slate-300 mb-2">
-                Hi There
+                Hi, everyone
               </h1>
-              <p>&nbsp;👋🏻</p>
+              <p> &nbsp;👋🏻</p>
             </div>
+            <h1 className="text-xl leading-7 text-gray-700 dark:text-gray-200">
+              I'm Tran Quang Ha - a Software Developer passionate about technology 💘
+            </h1>
+            {/*
             <div className="h-auto flex flex-col">
               <div className="flex text-lg bg-gradient-to-r from-slate-500 to-slate-800 text-transparent bg-clip-text dark:from-gray-200 dark:to-slate-300 mb-2">
                 <div className="pr-1">Interested Tech&nbsp;</div>
@@ -42,10 +47,11 @@ export default function Home({ posts, author }) {
                 })}
               </div>
             </div>
+*/}
             <div className="min-h-42 py-4">
               <TypedIntroduce />
             </div>
-            <div className="p-2">{/* <MyInformation /> */}</div>
+            <div className="p-2">{<MyInformation />}</div>
           </div>
         </div>
         <div className="space-y-2 pb-2 pt-6 md:space-y-5">
@@ -84,11 +90,9 @@ export default function Home({ posts, author }) {
 
                   <div className="mt-2 w-full lg:mt-0 lg:h-72 flex flex-col items-start justify-start min-h-full">
                     <div className="flex-1">
-                      <Link href={`/blog/${slug}`}>
-                        <p className="block text-xl font-semibold text-gray-800 dark:text-white md:text-xl hover:text-primary-600 dark:hover:text-primary-400 duration-100">
-                          {title}
-                        </p>
-                      </Link>
+                      <p className="block text-xl font-semibold text-gray-800 dark:text-white md:text-xl">
+                        {title}
+                      </p>
                       <div className="mt-4 flex flex-wrap">
                         {tags.map((tag) => (
                           <Tag key={tag} text={tag} />
@@ -100,7 +104,7 @@ export default function Home({ posts, author }) {
                       </p>
                     </div>
                     <button className="mt-2 btn group flex items-center bg-transparent tracking-widest text-base font-medium leading-6">
-                      <span className="relative pb-1 pr-2 text-white after:transition-transform after:duration-500 after:ease-out after:bottom-0 after:left-0 after:block after:h-[2px] after:w-full after:origin-bottom-right after:scale-x-0 after:bg-primary-500 after:content-[''] after:group-hover:origin-bottom-left after:group-hover:scale-x-100 ">
+                      <span className="relative pb-1 pr-2 text-white after:transition-transform after:duration-500 after:ease-out after:bottom-0 after:left-0 after:block after:h-[3px] after:w-full after:origin-bottom-right after:scale-x-0 after:bg-primary-500 after:content-[''] after:group-hover:origin-bottom-left after:group-hover:scale-x-100 ">
                         <Link
                           href={`/blog/${slug}`}
                           className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
