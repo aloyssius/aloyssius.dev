@@ -46,9 +46,10 @@ input:-webkit-autofill:focus {
     background-color 600000s 0s,
     color 600000s 0s;
 }
-.hover-div-tag:hover .div-tag-zero {
-  color: #2563eb;
+
+.tag-container:hover .tag-part-first {
+  color: #5BA2F6;
 }
-.hover-div-tag:hover .div-tag-one {
-  background-color: #2563eb;
+.tag-container:hover .tag-part-end {
+  background-color: #5BA2F6;
 }
