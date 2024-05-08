@@ -22,7 +22,6 @@ module.exports = {
         14: '3.5rem',
       },
       fontFamily: {
-        sans_body: ['ui-sans-serif', 'system-ui'],
         sans: ['var(--font-space-grotesk)', ...fontFamily.sans],
       },
       colors: {
@@ -48,7 +47,7 @@ module.exports = {
               fontWeight: '600',
             },
             code: {
-              color: theme('colors.indigo.500'),
+              color: "#EC4899",
             },
           },
         },

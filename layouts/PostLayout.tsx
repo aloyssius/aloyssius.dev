@@ -101,7 +101,7 @@ export default function PostLayout({ content, authorDetails, next, prev, childre
               </dd>
             </dl>
             <div className="divide-y divide-gray-200 dark:divide-gray-700 xl:col-span-3 xl:row-span-2 xl:pb-0">
-              <div className="prose max-w-none pb-8 pt-10 dark:prose-invert font-sans_body">
+              <div className="prose max-w-none pb-8 pt-10 dark:prose-invert" style={{ fontSize: "18.5px" }}>
                 {children}
               </div>
 

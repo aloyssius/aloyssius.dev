@@ -32,7 +32,7 @@ public/sitemap.xml
 .DS_Store
 
 #obsidian
-/.obsidian
+/.obsidian/workspace.json
 
 # debug
 *.log
@@ -40,10 +40,8 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# local markdown
-/local/obsidian/*.md
-
 # local env files
+.env
 .env.local
 .env.development.local
 .env.test.local
