@@ -17,7 +17,7 @@ const HeaderMainIcon = () => {
   return (
     <div className="mr-2">
       <svg
-        className="w-8 inline-block transition-transform duration-200 group-hover:rotate-12"
+        className="w-10 inline-block transition-transform duration-200 group-hover:rotate-12"
         viewBox="0 0 40 40"
         fill="currentColor"
       >

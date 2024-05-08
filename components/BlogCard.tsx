@@ -37,11 +37,9 @@ export default function BlogCard({
 
         <div className="mt-2 lg:w-1/2 lg:mt-0 lg:h-72 flex flex-col items-start justify-start min-h-full">
           <div className="flex-1">
-            <Link href={`/blog/${slug}`}>
-              <p className="block text-2xl font-semibold text-gray-800 dark:text-white md:text-3xl hover:text-primary-600 dark:hover:text-primary-400 duration-100">
-                {title}
-              </p>
-            </Link>
+            <p className="block text-2xl font-semibold text-gray-800 dark:text-white md:text-3xl">
+              {title}
+            </p>
             <div className="mt-4 flex flex-wrap">
               {tags.map((tag) => (
                 <Tag key={tag} text={tag} />
@@ -54,7 +52,7 @@ export default function BlogCard({
               </p>
             </div>
             <button className="mt-3 ms-1 btn group flex items-center bg-transparent tracking-widest text-base font-medium leading-6">
-              <span className="relative pb-1 pr-2 text-white after:transition-transform after:duration-500 after:ease-out after:bottom-0 after:left-0 after:block after:h-[2px] after:w-full after:origin-bottom-right after:scale-x-0 after:bg-primary-500 after:content-[''] after:group-hover:origin-bottom-left after:group-hover:scale-x-100 ">
+              <span className="relative pb-1 pr-2 text-white after:transition-transform after:duration-500 after:ease-out after:bottom-0 after:left-0 after:block after:h-[3px] after:w-full after:origin-bottom-right after:scale-x-0 after:bg-primary-500 after:content-[''] after:group-hover:origin-bottom-left after:group-hover:scale-x-100 ">
                 <Link
                   href={`/blog/${slug}`}
                   className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
