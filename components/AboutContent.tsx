@@ -37,12 +37,12 @@ const EnglishContent = () => {
     <div>
       <li>👋 Hi, I’m Tran Quang Ha</li>
       <li>
-        👀 I'm a senior studying Software Development and hava a passion for creativity and discovery in
-        the field of information technology
+        👀 I'm a senior studying Software Development and hava a passion for creativity and
+        discovery in the field of information technology
       </li>
       <li>
-        🌱 I have accumulated considerable knowledge during my studies, and I am now looking for opportunities to
-        apply these skills in practice
+        🌱 I have accumulated considerable knowledge during my studies, and I am now looking for
+        opportunities toapply these skills in practice
       </li>
       <li>
         💞️ I'm confident in my ability to work independently and in groups. I also always want to

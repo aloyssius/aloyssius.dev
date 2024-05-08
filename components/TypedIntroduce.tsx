@@ -39,8 +39,7 @@ export function TypedIntroduce() {
   }, [])
 
   return (
-    <span
-      className="text-xl leading-7 text-gray-600 dark:text-gray-300" ref={typedRef}>
+    <span className="text-xl leading-7 text-gray-600 dark:text-gray-300" ref={typedRef}>
       ...
     </span>
   )
