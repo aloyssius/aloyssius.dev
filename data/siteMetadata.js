@@ -1,21 +1,21 @@
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
-  title: 'Endodog Blog Dev',
-  author: 'endodog',
-  headerTitle: 'Endodog Dev',
+  title: 'Aloyssius Dev Blog',
+  author: 'aloyssius',
+  headerTitle: 'Aloyssius Dev',
   description: 'The only way to do great work is to love what you do 📝',
   language: 'en-us',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://endodog.dev',
-  siteRepo: 'https://github.com/endodog/endodog-blog',
-  siteLogo: '/static/images/endodog.jpg',
+  siteUrl: 'https://aloyssius.dev',
+  siteRepo: 'https://github.com/aloyssius/aloyssius.dev',
+  siteLogo: '/static/images/aloyssius-logo.jpg',
   // socialBanner: '/static/images/banner.jpeg',
   mastodon: 'https://mastodon.social/@mastodonuser',
-  email: 'endodog.dev@gmail.com',
-  linkedin: 'https://www.linkedin.com/in/endodog',
-  github: 'https://github.com/endodog',
-  twitter: 'https://twitter.com/endodog',
-  facebook: 'https://facebook.com/hatq75',
+  email: 'tranha.dev@gmail.com',
+  linkedin: 'https://www.linkedin.com/in/aloyssius',
+  github: 'https://github.com/aloyssius',
+  twitter: 'https://twitter.com/aloyssius',
+  facebook: 'https://facebook.com/tqh7503',
   // youtube: 'https://youtube.com',
   analytics: {
     // If you want to use an analytics provider you have to add it to the

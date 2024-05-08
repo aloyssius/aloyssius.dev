@@ -1,18 +1,18 @@
 ---
 title: Tổng quan về Web Services và RESTful API
 date: 2024-01-24
-modified: true
+modified: false
 draft: false
 tags:
   - Web-Services
   - RESTful-API
 summary: Tổng quan về Web Services và RESTful API trong lĩnh vực phát triển web.
 images:
-  - /static/images/tong-quan-ve-web-services-va-restful-api123.png
+  - "[[public/static/images/tong-quan-ve-web-services-va-restful-api123.png]]"
 ---
 # Web Service là gì?
 
-![](/static/images/tong-quan-ve-web-services-va-restful-api123.png)
+![](/public/static/images/tong-quan-ve-web-services-va-restful-api123.png)
 
 Web Service là một công nghệ trung gian cho phép các hệ thống không liên quan tới nhau vẫn có thể giao tiếp và trao đổi dữ liệu với nhau thông qua mạng Internet bằng cách sử dụng các chuẩn giao thức như REST, SOAP hay WebSocket.
 
@@ -79,7 +79,7 @@ RESTful API là các API được thiết kế và triển khai theo các nguyê
 
 # RESTful API hoạt động như thế nào?
 
-![tong-quan-ve-web-services-va-restful-api2](/static/images/tong-quan-ve-web-services-va-restful-api2.png)
+![tong-quan-ve-web-services-va-restful-api2](public/static/images/tong-quan-ve-web-services-va-restful-api2.png)
 
 RESTful API hoạt động dựa trên giao thức HTTP và sử dụng các phương thức HTTP để truy cập và thao tác với các tài nguyên trên hệ thống. Các phương thức HTTP phổ biến được sử dụng trong RESTful API bao gồm:
 
