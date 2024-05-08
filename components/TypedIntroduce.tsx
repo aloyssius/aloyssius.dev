@@ -21,7 +21,7 @@ export function TypedIntroduce() {
       strings: [
         'I love Web Application Development 💻🌐',
         'My favorite technologies are Java Spring Boot/ReactJS ✅',
-        'This my blog shares things related to specialized knowledge 📝'
+        'This my blog shares things related to specialized knowledge 📝',
       ],
       typeSpeed: 33,
       backSpeed: 20,
@@ -38,5 +38,9 @@ export function TypedIntroduce() {
     }
   }, [])
 
-  return <span className="text-xl leading-7 text-gray-600 dark:text-gray-300" ref={typedRef}>...</span>
+  return <span
+    className="text-xl leading-7 text-gray-600 dark:text-gray-300" ref={typedRef}>
+    ...
+  </span>
+
 }

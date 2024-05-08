@@ -13,8 +13,7 @@ function convertBlog() {
   if (!tagDataFileContent.trim()) {
     // Create empty object json if content file empty
     fs.writeFileSync(tagDataFilePath, JSON.stringify(tagData), 'utf8')
-  }
-  else {
+  } else {
     tagData = JSON.parse(tagDataFileContent) // convert content file to json
   }
 
@@ -33,7 +32,6 @@ function convertBlog() {
         tags: tags,
         draft: draft,
       }
-
     })
 
   let targetFiles = getTargetFiles()
@@ -52,15 +50,14 @@ function convertBlog() {
           tags: tags,
         }
       })
-
   }
 
   function modifiedContent(file) {
     let contentFile = file?.content
-    let modified = ""
+    let modified = ''
 
     // replace thumbnail path
-    modified = contentFile?.replace(/"\[\[public|]]"/g, "")
+    modified = contentFile?.replace(/"\[\[public|]]"/g, '')
 
     // replace all images path
     modified = modified?.replace(/\]\(\s*\/?public/g, '](')
@@ -79,14 +76,12 @@ function convertBlog() {
     fs.writeFileSync(tagDataFilePath, JSON.stringify(tagData))
 
     if (!isUpdated) {
-
       // update list targetFiles
       targetFiles.push({
         name: file.name,
-        tags: file.tags
+        tags: file.tags,
       })
     }
-
     console.log(`Complete convert file ${file.name} ${isUpdated ? '(update)' : '(create)'}`)
   }
 
@@ -98,7 +93,7 @@ function convertBlog() {
       else {
         tagData[tag] = 1
       }
-    });
+    })
   }
 
   function removeTagData(tags) {
@@ -111,14 +106,12 @@ function convertBlog() {
           tagData[tag]--
         }
       }
-    });
+    })
   }
 
   sourceFiles.forEach((file) => {
-
     // if blog not exists then create file
     if (!checkBlogNameExists(file.name) && !file.draft) {
-
       // update tagData
       addTagData(file?.tags)
 
@@ -127,10 +120,10 @@ function convertBlog() {
 
     // if blog exists and is modified then update file
     if (checkBlogNameExists(file.name) && file.modified) {
-
       const sourceTags = file?.tags
-      const targetTags = targetFiles.find((targetFile) =>
-        nameWithoutExtension(targetFile.name) === nameWithoutExtension(file.name))?.tags
+      const targetTags = targetFiles.find(
+        (targetFile) => nameWithoutExtension(targetFile.name) === nameWithoutExtension(file.name)
+      )?.tags
 
       // filter tags need add
       const filteredSourceTags = sourceTags?.filter((tag) => !targetTags?.includes(tag))
@@ -148,16 +141,14 @@ function convertBlog() {
     }
 
   })
-
   function checkBlogNameExists(sourceFileName) {
-    return targetFiles.some((targetFile) =>
-      nameWithoutExtension(targetFile.name) === nameWithoutExtension(sourceFileName))
+    return targetFiles.some(
+      (targetFile) => nameWithoutExtension(targetFile.name) === nameWithoutExtension(sourceFileName)
+    )
   }
-
   function nameWithoutExtension(fileName) {
-    return fileName?.substring(0, fileName.lastIndexOf('.'));
+    return fileName?.substring(0, fileName.lastIndexOf('.'))
   }
-
 }
 
 convertBlog()
