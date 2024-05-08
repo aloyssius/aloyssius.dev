@@ -2,7 +2,7 @@
   "promptDelete": false,
   "livePreview": true,
   "spellcheckLanguages": null,
-  "vimMode": true,
+  "vimMode": false,
   "legacyEditor": false,
   "showLineNumber": true,
   "newLinkFormat": "absolute",

@@ -2,7 +2,7 @@
   "accentColor": "#209bf8",
   "interfaceFontFamily": "SF Pro,SF Pro Display",
   "textFontFamily": "SF Pro Display,Cascadia Mono,SF Pro",
-  "monospaceFontFamily": "SFMono Nerd Font,Cascadia Mono,SF Pro",
+  "monospaceFontFamily": "SF Pro,SFMono Nerd Font,Cascadia Mono",
   "baseFontSize": 17,
   "baseFontSizeAction": true,
   "cssTheme": "GitHub Theme",

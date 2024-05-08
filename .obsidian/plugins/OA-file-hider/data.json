@@ -9,7 +9,13 @@
     "node_modules",
     "scripts",
     "types",
-    "public/static/favicons",
-    "app"
+    "app",
+    "data/endodog.png",
+    "data/logo.png",
+    "data/logo-dark.png",
+    "data/paw-print-svgrepo-com.png",
+    "local/obsidian/endodog.jpg",
+    "data/authors",
+    "public/static/favicons"
   ]
 }

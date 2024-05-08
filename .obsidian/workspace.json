@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "5ca18bf43bdf29eb",
+        "id": "1081262431da0a51",
         "type": "tabs",
         "children": [
           {
-            "id": "baace13f5fa2c61e",
+            "id": "94fb82ebe7320625",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "data/blog/tong-quan-ve-web-services-va-restful-api.mdx",
+                "file": "data/blog/obsidian/jvm-jdk-jre-trong-java.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "data/blog/tong-quan-ve-web-services-va-restful-api.mdx",
+                "file": "data/blog/obsidian/jvm-jdk-jre-trong-java.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "data/blog/tong-quan-ve-web-services-va-restful-api.mdx",
+                "file": "data/blog/obsidian/jvm-jdk-jre-trong-java.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "data/blog/tong-quan-ve-web-services-va-restful-api.mdx"
+                "file": "data/blog/obsidian/jvm-jdk-jre-trong-java.md"
               }
             }
           }
@@ -134,7 +134,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -147,32 +148,34 @@
       "edit-mdx:New .mdx file": false
     }
   },
-  "active": "baace13f5fa2c61e",
+  "active": "94fb82ebe7320625",
   "lastOpenFiles": [
-    "local/obsidian/tong-quan-ve-web-services-va-restful-api.md",
+    "data/blog/obsidian/tong-quan-ve-web-services-va-restful-api.md",
+    "data/blog/obsidian/jvm-jdk-jre-trong-java.md",
+    "components/AboutContent.tsx~",
     "data/blog/tong-quan-ve-web-services-va-restful-api.mdx",
+    "data/blog/jvm-jdk-jre-trong-java.mdx",
+    "public/static/images/tong-quan-ve-web-services-va-restful-api123.png",
+    "public/static/images/su-khac-nhau-giua-jvm-jdk-jre-trong-java-main.png",
+    "public/static/favicons/favicon-16x16.jpg",
+    "public/static/favicons/favicon-32x32.jpg",
+    "public/static/favicons/aloyssius-logo-16x16.jpg",
+    "public/static/favicons/aloyssius-logo-32x32.jpg",
+    "public/static/images/aloyssius-logo.jpg",
+    "public/static/images/endodog.jpg",
+    "public/static/images/jvm-jdk-jre-trong-java.png",
+    "public/static/images/tong-quan-ve-web-services-va-restful-api2.png",
+    "data/blog/obsidian",
+    "components/TypedIntroduce.tsx~",
+    "local/obsidian/().md",
     "local/obsidian/data",
     "local/obsidian",
     "data/authors/default.mdx",
-    "public/static/images/endodog.jpg",
     "scripts/convertMarkdownToMdx.js",
     "local/tags.md",
     "data/local/obsidian/tong-quan-ve-web-services-va-restful-api.md",
     "local",
-    "public/static/images/tong-quan-ve-web-services-va-restful-api2.png",
-    "scripts/convertFile.js",
-    "scripts/convertFile",
-    "scripts/convertMarkDownFile.js",
-    "scripts/replaceFile.js",
     "data/blog/tong-quan-ve-web-services-va-restful-api.md",
-    "public/static/images/Pasted image 20240125163948.png",
-    "public/static/images/Pasted image 20240125163800.png",
-    "public/static/images/tong-quan-ve-web-services-va-restful-api.png",
-    "public/static/images/Pasted image 20240125163700.png",
-    "public/static/images/tong-quan-ve-web-services-va-restful-api.png",
-    "public/static/images/Pasted image 20240125163528.png",
-    "public/static/images/tong-quan-ve-web-services-va-restful-api-2.png",
-    "public/static/images/tong-quan-ve-web-services-va-restful-api-1.png",
     "data/blog/Chưa đặt tên.md",
     "static/images/tong-quan-ve-web-services-va-restful-api123.png.md",
     "README.md",
@@ -193,7 +196,6 @@
     "WebService/Tổng quan về Web Services và RESTful API 1.md",
     "Untitled.canvas",
     "2023-07-04.md",
-    "~$rkdown Syntax.md",
-    "Test.md"
+    "~$rkdown Syntax.md"
   ]
 }

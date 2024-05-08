@@ -4,6 +4,8 @@
     "cssclasses": "multitext",
     "tags": "tags",
     "date": "date",
-    "images": "multitext"
+    "images": "multitext",
+    "new-update": "checkbox",
+    "modified": "checkbox"
   }
 }
