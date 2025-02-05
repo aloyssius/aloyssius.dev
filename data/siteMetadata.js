@@ -15,7 +15,7 @@ const siteMetadata = {
   linkedin: 'https://www.linkedin.com/in/aloyssius',
   github: 'https://github.com/aloyssius',
   twitter: 'https://twitter.com/aloyssius',
-  facebook: 'https://facebook.com/123123ok',
+  facebook: 'https://facebook.com/123123ok123',
   // youtube: 'https://youtube.com',
   analytics: {
     // If you want to use an analytics provider you have to add it to the
